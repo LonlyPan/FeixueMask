@@ -1,7 +1,7 @@
 
 # 飞雪面具程序源码
 
-[![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.svg?v=103)](https://opensource.org/licenses/GPL-3.0/) 
+![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
 <a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu" /></a>
 
 Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
