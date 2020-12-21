@@ -23,7 +23,7 @@
 
 V1.0 是该固件的初始版本，经过测试可正常使用
 
-在[发布页面]（https://github.com/LonlyPan/FeixueMask/releases）下载早期版本的FeixueMask。
+在[发布页面](https://github.com/LonlyPan/FeixueMask/releases)下载早期版本的FeixueMask。
 
 ## Marlin Support
 
