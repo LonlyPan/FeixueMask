@@ -4,14 +4,34 @@
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
 <a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu" /></a>
 
-Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
-Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
+- **[English](/README_EN.md)**
 
-## V1.0
+哔哩哔哩：[猩造](https://space.bilibili.com/16614468/)
+聊天催更Q群：779627778
 
-Marlin 2.0 takes this popular RepRap firmware to the next level by adding support for much faster 32-bit and ARM-based boards while improving support for 8-bit AVR boards. Read about Marlin's decision to use a "Hardware Abstraction Layer" below.
+# 如何找到文件
+- 00_Priority README ------------- 技术文档
+   该文件夹下存放了该控制板项目的全部技术文档，如果想要自己重新改版重置，请先仔细阅读该文件夹下的文档内容。当然这需要一定专业知识。如果仅是复刻，请忽略该文件夹。
+- 01_Firmware --------------------- 软件/程序 相关文件夹
+   该文件夹下存放了 软件/程序 相关的全部源文件
+- 02_Electronics -------------------- 电路/PCB 相关文件夹
+  该文件夹下存放了 电路/PCB 相关的全部源文件
+- 04_others ------------------------ 其它文件
+  即不属于 软件/程序 也不属于 电路/PCB，但和本项目相关的其它文件
+- README.txt --------------------- 每个分类文件夹都有，请最先阅读。含有其所处文件夹的阅读索引及必要说明。
 
-Download earlier versions of Marlin on the [Releases page](https://github.com/MarlinFirmware/Marlin/releases).
+- 01-Hard
+   该文件夹下存放了该控制板项目的全部源文件(也包含下方文件夹`Easy`下的所有内容)，如果想要自己**重新修改，重制创作**，请仔细阅读该文件夹下的所有内容。当然这需要一定专业知识。如果**仅是复刻该控制板，请忽略该文件夹**。
+- 02-Easy
+  该文件夹下存放了该控制板项目的所有输出文件，你并不需要太多专业知识，只需要按照该文件夹中的引导即可快速复刻这个控制板。
+- README.txt --------------------- 每个文件夹下都有该文档，请**首先阅读**。这包含有其所处文件夹的阅读索引及一些重要说明。
+
+
+## V1.0.x
+
+V1.0 是该固件的初始版本，经过测试可正常使用
+
+在[发布页面]（https://github.com/MarlinFirmware/Marlin/releases）下载早期版本的Marlin。
 
 ## Marlin Support
 
