@@ -1,0 +1,3 @@
+版本 1.5.0
+
+https://my.st.com/content/my_st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-ides/stm32cubeide.license=1608641428361.product=STM32CubeIDE-Win.version=1.5.0.html
