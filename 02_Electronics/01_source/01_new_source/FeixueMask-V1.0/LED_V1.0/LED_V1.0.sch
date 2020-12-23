@@ -1,0 +1,220 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x05 J1
+U 1 1 5FCE2E5B
+P 1240 2310
+F 0 "J1" H 1158 1885 50  0000 C CNN
+F 1 "Conn_01x05" H 1158 1976 50  0000 C CNN
+F 2 "SamacSys_Parts:FPC-0.7x5-Handsoldering" H 1240 2310 50  0001 C CNN
+F 3 "~" H 1240 2310 50  0001 C CNN
+	1    1240 2310
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 5FCE35A6
+P 1440 2410
+F 0 "#PWR0101" H 1440 2260 50  0001 C CNN
+F 1 "+5V" V 1455 2538 50  0000 L CNN
+F 2 "" H 1440 2410 50  0001 C CNN
+F 3 "" H 1440 2410 50  0001 C CNN
+	1    1440 2410
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR0102
+U 1 1 5FCE4095
+P 1440 2510
+F 0 "#PWR0102" H 1440 2260 50  0001 C CNN
+F 1 "Earth" H 1440 2360 50  0001 C CNN
+F 2 "" H 1440 2510 50  0001 C CNN
+F 3 "~" H 1440 2510 50  0001 C CNN
+	1    1440 2510
+	0    -1   -1   0   
+$EndComp
+Text Label 1440 2210 0    50   ~ 0
+LED_R
+Text Label 1440 2110 0    50   ~ 0
+LED_B
+Text Label 1440 2310 0    50   ~ 0
+LED_G
+$Comp
+L power:+5V #PWR0103
+U 1 1 5FCF1EBB
+P 2090 2390
+F 0 "#PWR0103" H 2090 2240 50  0001 C CNN
+F 1 "+5V" V 2160 2380 50  0000 L CNN
+F 2 "" H 2090 2390 50  0001 C CNN
+F 3 "" H 2090 2390 50  0001 C CNN
+	1    2090 2390
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5FD155E6
+P 2660 2190
+F 0 "R1" V 2590 2270 50  0000 C CNN
+F 1 "470R" V 2590 2110 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2660 2190 50  0001 C CNN
+F 3 "~" H 2660 2190 50  0001 C CNN
+	1    2660 2190
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2490 2190 2560 2190
+Wire Wire Line
+	2560 2390 2490 2390
+Text Label 2760 2590 0    50   ~ 0
+LED_G_O
+Text Label 1960 4330 0    50   ~ 0
+LED_G_O
+Text Label 1330 4530 2    50   ~ 0
+LED_G
+Wire Wire Line
+	1660 4530 1530 4530
+$Comp
+L power:Earth #PWR0108
+U 1 1 5FD24E85
+P 1960 4730
+F 0 "#PWR0108" H 1960 4480 50  0001 C CNN
+F 1 "Earth" H 1960 4580 50  0001 C CNN
+F 2 "" H 1960 4730 50  0001 C CNN
+F 3 "~" H 1960 4730 50  0001 C CNN
+	1    1960 4730
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5FD27169
+P 2660 2390
+F 0 "R2" V 2590 2470 50  0000 C CNN
+F 1 "470R" V 2590 2310 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2660 2390 50  0001 C CNN
+F 3 "~" H 2660 2390 50  0001 C CNN
+	1    2660 2390
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5FD27695
+P 2660 2590
+F 0 "R3" V 2590 2670 50  0000 C CNN
+F 1 "470R" V 2590 2510 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2660 2590 50  0001 C CNN
+F 3 "~" H 2660 2590 50  0001 C CNN
+	1    2660 2590
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2560 2590 2490 2590
+$Comp
+L Device:R_Small R11
+U 1 1 5FD67172
+P 1430 4530
+F 0 "R11" V 1360 4610 50  0000 C CNN
+F 1 "1K" V 1360 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1430 4530 50  0001 C CNN
+F 3 "~" H 1430 4530 50  0001 C CNN
+	1    1430 4530
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_Small D1
+U 1 1 5FE08357
+P 2390 2190
+F 0 "D1" H 2500 2160 50  0000 C CNN
+F 1 "LED" H 2280 2230 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 2390 2190 50  0001 C CNN
+F 3 "~" V 2390 2190 50  0001 C CNN
+	1    2390 2190
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small D2
+U 1 1 5FE09345
+P 2390 2390
+F 0 "D2" H 2490 2360 50  0000 C CNN
+F 1 "LED" H 2280 2430 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 2390 2390 50  0001 C CNN
+F 3 "~" V 2390 2390 50  0001 C CNN
+	1    2390 2390
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small D3
+U 1 1 5FE09724
+P 2390 2590
+F 0 "D3" H 2490 2560 50  0000 C CNN
+F 1 "LED" H 2280 2640 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 2390 2590 50  0001 C CNN
+F 3 "~" V 2390 2590 50  0001 C CNN
+	1    2390 2590
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2290 2190 2190 2190
+Wire Wire Line
+	2190 2190 2190 2390
+Wire Wire Line
+	2190 2390 2290 2390
+Wire Wire Line
+	2290 2590 2190 2590
+Wire Wire Line
+	2190 2590 2190 2390
+Connection ~ 2190 2390
+Wire Wire Line
+	2090 2390 2190 2390
+Text Label 2760 2390 0    50   ~ 0
+LED_G_O
+Text Label 2760 2190 0    50   ~ 0
+LED_G_O
+$Comp
+L Device:Q_NPN_BEC Q1
+U 1 1 5FE0C886
+P 1860 4530
+F 0 "Q1" H 2050 4576 50  0000 L CNN
+F 1 "SS8050" H 2050 4485 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2060 4630 50  0001 C CNN
+F 3 "~" H 1860 4530 50  0001 C CNN
+	1    1860 4530
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5FE1F44E
+P 1280 3170
+F 0 "J2" H 1198 2845 50  0000 C CNN
+F 1 "series_LED" H 1198 2936 50  0000 C CNN
+F 2 "SamacSys_Parts:Pad-2.2mm_1.5x1.5" H 1280 3170 50  0001 C CNN
+F 3 "~" H 1280 3170 50  0001 C CNN
+	1    1280 3170
+	-1   0    0    1   
+$EndComp
+Text Label 1480 3070 0    50   ~ 0
+LED_G_O
+$Comp
+L power:+5V #PWR?
+U 1 1 5FE21150
+P 1480 3170
+F 0 "#PWR?" H 1480 3020 50  0001 C CNN
+F 1 "+5V" V 1550 3160 50  0000 L CNN
+F 2 "" H 1480 3170 50  0001 C CNN
+F 3 "" H 1480 3170 50  0001 C CNN
+	1    1480 3170
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
