@@ -1,0 +1,10 @@
+lcd.c:44:6:delay	0	static
+lcd.c:53:6:LCD_Writ_Bus	16	static
+lcd.c:68:6:LCD_WR_DATA8	16	static
+lcd.c:77:6:LCD_WR_DATA	24	static
+lcd.c:87:6:LCD_WR_REG	24	static
+lcd.c:100:6:LCD_Address_Set	48	static
+lcd.c:118:6:LCD_Fill	56	static
+lcd.c:137:6:DMA_LCD_Fill	48	static
+lcd.c:158:6:LCD_DrawPoint	48	static
+lcd.c:167:6:lcd_init	224	static

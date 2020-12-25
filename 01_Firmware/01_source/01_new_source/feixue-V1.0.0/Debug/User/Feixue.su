@@ -1,0 +1,9 @@
+Feixue.c:194:13:rest_show_scr1	88	static
+Feixue.c:267:13:show_scr1_loader	120	static
+Feixue.c:57:8:sine_taylor	56	static
+Feixue.c:105:8:cose_taylor	56	static
+Feixue.c:483:6:test_screen	88	static
+Feixue.c:717:6:setup	8	static
+Feixue.c:739:6:screen_change	8	static
+Feixue.c:766:6:speech_process	16	static
+Feixue.c:817:6:loop	16	static

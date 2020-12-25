@@ -1,0 +1,2 @@
+speech_usart.c:49:6:HAL_UART_RxCpltCallback	4	static
+speech_usart.c:77:6:speeech_wake_up	0	static
