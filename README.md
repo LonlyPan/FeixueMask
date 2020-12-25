@@ -6,7 +6,7 @@
 
 - **[English](/README_EN.md)**
 
-飞雪面具控制板是飞雪面具[English](https://www.bilibili.com/video/BV1Dy4y1i72c)的配套产品。
+飞雪面具控制板是[飞雪面具](https://www.bilibili.com/video/BV1Dy4y1i72c)的配套产品。
 
 ![enter description here](./images/FeixueMask动画.gif)
 
